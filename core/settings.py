@@ -81,11 +81,11 @@ WSGI_APPLICATION = "core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("PGDATABASE"),
-        "PORT": os.getenv("PGPORT"),
-        "USER": os.getenv("PGUSER"),
-        "PASSWORD": os.getenv("PGPASSWORD"),
-        "HOST": os.getenv("PGHOST")
+        "NAME": os.getenv('PGDATABASE'),
+        "PORT": os.getenv('PGPORT'),
+        "USER": os.getenv('PGUSER'),
+        "PASSWORD": os.getenv('PGPASSWORD'),
+        "HOST": os.getenv('PGHOST')
     }
 }
 
