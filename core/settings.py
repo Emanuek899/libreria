@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-w5-zg-1zj^es(8kvi9=y)-$#&t!orr)g2^)4!$r_v_=s#lx96g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'https://libreria-production-1a6b.up.railway.app/']
 
 
 # Application definition
